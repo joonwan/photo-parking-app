@@ -2,7 +2,7 @@
   <div class="login-container">
     <div class="login-card">
       <h1 class="app-title">Photo Parking</h1>
-      <p class="app-subtitle">사진으로 주차 위치를 기억하세요</p>
+      <p class="app-subtitle">번호판 자동 인식으로 스마트한 주차 관리</p>
 
       <button
         class="kakao-login-btn"
