@@ -68,6 +68,11 @@ const handleKakaoLogin = () => {
   window.Kakao.Auth.login({
     success: async (authObj: any) => {
       try {
+        // 카카오 액세스 토큰 로깅
+        console.log('✅ 카카오 로그인 성공!')
+        console.log('📝 카카오 액세스 토큰:', authObj.access_token)
+        console.log('📋 전체 인증 객체:', authObj)
+
         // 카카오 액세스 토큰을 서버로 전송하여 JWT 발급
         const loginResponse = await authAPI.kakaoLogin(authObj.access_token)
 
