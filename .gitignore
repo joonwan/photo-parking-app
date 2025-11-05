@@ -34,3 +34,6 @@ coverage
 
 # Vitest
 __screenshots__/
+
+# Project documentation (local reference only)
+CONFIG.MD
